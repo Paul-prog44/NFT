@@ -26,14 +26,7 @@ body {
     width: 300px;
 }
 
-.mainimg {
-    border-radius: 10px;
-}
 
-.mainimg:hover  {
-    opacity: 0.3;
-    transition: .5s ease;
-  }
 
 .avatar {
     width: 30px;
@@ -95,4 +88,17 @@ a {
 
 a:hover {
     color: hsl(178, 100%, 50%);
+}
+
+.mainimg {
+    background-image: url('images/image-equilibrium.jpg');
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background-size: cover;
+}
+
+.mainimg:hover {
+    background-image:linear-gradient(to bottom, hsl(178, 100%, 50%, 0.6), hsl(178, 100%, 50%, 0.6)),
+    url('images/image-equilibrium.jpg');
 }
