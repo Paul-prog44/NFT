@@ -1,0 +1,98 @@
+body {
+    background-color:hsl(217, 54%, 11%);
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif
+}
+.card
+{
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    border-radius: 15px;
+    padding-top: 20px;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.width {
+    width: 300px;
+}
+
+.mainimg {
+    border-radius: 10px;
+}
+
+.mainimg:hover  {
+    opacity: 0.3;
+    transition: .5s ease;
+  }
+
+.avatar {
+    width: 30px;
+    border: 0.040em solid white;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.softblue {
+    color: hsl(215, 51%, 70%);
+}
+
+.white {
+    color: hsl(0, 0%, 100%);
+}
+hr {
+    border-color : hsl(215, 32%, 27%);
+}
+
+.values {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.ethicon {
+    width: 10px;
+    margin-right: 10px;
+}
+
+.timericon {
+    margin-right: 10px;
+}
+.timer {
+    display: flex;
+    align-items: center;
+}
+
+.signature {
+    display: flex;
+    align-items: center;
+}
+ 
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
